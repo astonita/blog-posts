@@ -1,5 +1,7 @@
 require 'pry'
 
+
+
 blog_posts = [
   {
     title: 'What Makes A Star Starry? Is It Me?',
@@ -32,3 +34,5 @@ blog_posts = [
     tags: ['history', 'morality', 'prison']
   }
 ]
+
+binding.pry
