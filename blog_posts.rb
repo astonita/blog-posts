@@ -34,12 +34,4 @@ blog_posts = [
   }
 ]
 
-  @twitter_handles, @authors = [], []
-
-  blog_posts.each do |blog_post|
-    @twitter_handles << blog_post[:author][:twitter_handle]
-    @authors << "#{blog_post[:author][:first_name]} #{blog_post[:author][:last_name]}"
-  end
-
-puts @twitter_handles
-puts @authors
+binding.pry
